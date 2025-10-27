@@ -3,9 +3,9 @@
 
 int main(int argc, char *argv[]) {
     float first, second;
-    for (first = 1.5; first <= 9.5; first++) {
-        for (second = 1.5; first >= second; second++) {
-            printf("%.1f ", second);
+    for (first = 9.25; first >= 1.25; first--) {
+        for (second = 1.25; first >= second; second++) {
+            printf("%.2f ", second);
         }
         printf("\n");
     }
