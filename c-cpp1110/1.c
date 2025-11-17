@@ -2,14 +2,15 @@
 #include <stdlib.h>
 
 int main(int argc, char *argv[]) {
-
     int horizontal = 0, vertical = 0, i;
+
     printf("    ");
     for(horizontal = 0; horizontal <= 12; horizontal++) {
         printf("%3d", horizontal);
     }
     printf("\n");
     printf("     --------------------------------------");
+    
     for(i = 0; i <= 127; i++) {
         if(i % 13 == 1) {
             printf("\n");
@@ -25,8 +26,4 @@ int main(int argc, char *argv[]) {
     }
 
     return 0;
-
-
-
-
 }
