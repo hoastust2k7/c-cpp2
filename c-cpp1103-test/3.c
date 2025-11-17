@@ -10,7 +10,7 @@ int main(int argc, char *argv[]) {
     if(input >= 1 && input <= 100) {
         printf("你計算的總和是：\n");
         for(i = 1; i <= input; i++) {
-            printf("(%d + %d + 1) + ", i * i * first, i * second);
+            printf("(%d + %d + %d) + ", first * i * i, second * i, third);
             sum += 3*i*i + 2*i + 1;
         }
         printf("\b\b\b = %d\n\n", sum);
@@ -26,7 +26,7 @@ int main(int argc, char *argv[]) {
     if(input >= 1 && input <= 100) {
         printf("你計算的總和是：\n");
         for(i = 1; i <= input; i++) {
-            printf("(%d + %d + 1) + ", i * i * first, i * second);
+            printf("(%d + %d + %d) + ", first * i * i, second * i, third);
             sum += 3*i*i + 2*i + 1;
         }
         printf("\b\b\b = %d\n\n", sum);
@@ -42,7 +42,7 @@ int main(int argc, char *argv[]) {
     if(input >= 1 && input <= 100) {
         printf("你計算的總和是：\n");
         for(i = 1; i <= input; i++) {
-            printf("(%d + %d + 1) + ", i * i * first, i * second);
+            printf("(%d + %d + %d) + ", first * i * i, second * i, third);
             sum += 3*i*i + 2*i + 1;
         }
         printf("\b\b\b = %d\n\n", sum);
