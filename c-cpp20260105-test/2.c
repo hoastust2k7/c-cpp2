@@ -9,7 +9,7 @@ int main(int argc, char *argv[]) {
     int min = 0;
     int max = 1000;
     srand((unsigned)time(NULL));
-    guess = rand() % (max - 1) + 1;
+    guess = rand() % max;
     printf("猜數字遊戲\n\n");
     do {
         printf("猜數字範圍 %d < ? < %d ：", min, max);
